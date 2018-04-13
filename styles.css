@@ -1,0 +1,182 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  height: 40px;
+  width: 180px;
+}
+
+.btn {
+  background-color: #17A554;
+  border-radius: 0px;
+  border: none;
+}
+
+.text-sm-center {
+  font-size: 10px;
+  padding-top: 20px;
+  font-weight: 900;
+  color: black;
+}
+
+.btn-sm {
+  font-size: 10px;
+  width: 90px;
+  height: 30px;
+  margin: 2px;
+}
+
+.display-4 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.lead {
+  width: 55%;
+}
+
+.btn-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 220px;
+  height: 45px;
+  margin-top: -40px;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  margin: auto;
+}
+
+.display-4 {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
+a {
+  color: #17A554;
+}
+
+.nav-link {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #F7F7F7;
+}
+
+.jumbotron {
+  background-image: url('./assets/lagler.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+}
+
+.active-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-body {
+  font-size: 10px;
+}
+
+.card-title {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+h6 {
+  color: grey;
+  font-size: 8px;
+}
+
+span {
+  color: grey;
+  font-size: 8px;
+}
+
+.card-link-con{
+  margin-top: 10px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in {
+  color: #17A554;
+  margin: 5px;
+}
+
+.card-link {
+  color:#17A554;
+}
+
+.container-fullwidth {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: 8px;
+}
+
+.footerlinks {
+  font-size: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+  .card-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-body {
+    border-bottom: 2px solid #F7F7F7;
+  }
+
+   .copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-sm-center {
+        border-bottom: 2px solid #F7F7F7;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+}
